@@ -67,7 +67,7 @@ const Header = () => {
               <img src={NavCart} alt="Nav Cart icon" className="cursor-pointer" onClick={()=>setCartDrop(!cartDrop)}/>
               {cartDrop && 
               <div className="cart__drop__down w-[200px] px-6 py-4 bg-headerBackgroundColor absolute right-0 top-10">
-                <p className="text-white text-sm">Your cart is empty. Please buy something!</p>
+                <p className="text-white text-sm">Your cart is empty.</p>
               </div>
               }
             </div>
